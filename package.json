@@ -1,0 +1,36 @@
+{
+  "name": "solid_bookmark_collector",
+  "version": "0.0.1",
+  "description": "This package is used to save bookmarks to a solid pod via a firefox browser extension.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThorstenBigT/solid_bookmark.git"
+  },
+  "keywords": [
+    "bookmark",
+    "solid",
+    "firefox",
+    "browser",
+    "extension"
+  ],
+  "author": "Thorsten Steuer",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ThorstenBigT/solid_bookmark/issues"
+  },
+  "homepage": "https://github.com/ThorstenBigT/solid_bookmark#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "eslint": "^8.49.0",
+    "eslint-config-standard-with-typescript": "^39.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.2.2",
+    "webextension-polyfill": "^0.10.0"
+  }
+}
