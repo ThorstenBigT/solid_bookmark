@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/ThorstenBigT/solid_bookmark#readme",
   "devDependencies": {
+    "@types/node": "^20.6.3",
+    "@types/webextension-polyfill": "^0.10.2",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
     "eslint": "^8.49.0",
     "eslint-config-standard-with-typescript": "^39.0.0",

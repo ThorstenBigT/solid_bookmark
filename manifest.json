@@ -3,9 +3,9 @@
     "name": "Solid Bookmarking",
     "version": "1.0",
     "description": "This extension enables you to save visited websites as bookmarks in your solid pod.",
-    "permissions": ["activeTab", "downloads"],
+    "permissions": ["activeTab", "downloads", "devtools"],
     "action": {
-      "default_popup": "templates/popup.html",
+      "default_popup": "./templates/popup.html",
       "default_icon": {
         "16": "images/icons/solid_bookmark-16.png",
         "48": "images/icons/solid_bookmark-48.png",
@@ -20,8 +20,11 @@
     "content_scripts": [
         {
           "matches": ["<all_urls>"],
-          "js": ["./build/popup.js"]
+          "js": ["./build/content.js"]
         }
-      ]
+      ],
+    "background": {
+        "scripts": ["./build/background.js"]
+      }
   }
   

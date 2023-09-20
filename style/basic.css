@@ -1,0 +1,46 @@
+/* Apply a background color to the popup */
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    min-width: 200px;
+    max-width: 300px;
+  }
+  
+  /* Style for the extension title */
+  h1 {
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /* Style for a section header */
+  h2 {
+    color: #555;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Style for a simple button */
+  button {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Style for links */
+  a {
+    color: #0078d4;
+    text-decoration: none;
+  }
+  
+  /* Add hover effect to buttons and links */
+  button:hover, a:hover {
+    background-color: #005ea2;
+  }
+  
